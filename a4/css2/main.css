@@ -115,3 +115,15 @@ textarea.input {
     z-index: 1;
     background-color: #ffb606;
 }
+
+.rescontactform {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: #f2f2f2;
+}

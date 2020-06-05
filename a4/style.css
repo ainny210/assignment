@@ -2,16 +2,21 @@
     font-family: Cookie, cursive;
 }
 
+a {
+    color: #ffb606;
+}
+
 @font-face {
     font-family: cursive;
-    src: url('../precious/Precious.ttf');
+    src: url('https://www.1001fonts.com/cursive-fonts.html');
 }
 
 .Header {
-    height: 50px;
+    height: 80px;
     width: 100%;
     color: #ffb606;
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .Header .head {
@@ -265,7 +270,7 @@
 }
 
 .TableReservation {
-    background-image: url(../../public/a4/images/header.jpg);
+    background-image: url(images/header.jpg);
     height: 450px;
     width: 100%;
     display: flex;
@@ -347,7 +352,7 @@
 }
 
 .Reservation {
-    background-image: url(../../public/a4/images/reserbe2.jpg);
+    background-image: url(images/reserbe2.jpg);
     object-fit: cover;
     height: 450px;
     width: 100%;
