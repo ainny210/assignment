@@ -1,0 +1,827 @@
+* {
+    font-family: Cookie, cursive;
+}
+
+@font-face {
+    font-family: cursive;
+    src: url('../precious/Precious.ttf');
+}
+
+.Header {
+    height: 50px;
+    width: 100%;
+    color: #ffb606;
+    position: absolute;
+}
+
+.Header .head {
+    margin: 10px;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.Header .nav span {
+    font-family: 'Courgette', cursive;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+
+.Header .logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.Header .humburgericon {
+    display: none;
+}
+
+.images img {
+    object-fit: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.headertext {
+    position: absolute;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    top: 400px;
+    width: 100%;
+}
+
+.headertext .text {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.headertext .headingheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    color: #ffb606;
+    word-break: break-all;
+    font-weight: 700;
+}
+
+.Booking {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.Booking .Image img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.Booking .Details .heading {
+    display: flex;
+    margin: 20px;
+    align-self: flex-start;
+    font-weight: 100px;
+    font-size: xx-large;
+    color: #ffb606;
+}
+
+.Booking .Details .TextUnder {
+    color: grey;
+    word-break: break-all;
+}
+
+.Booking .Details .TextUnder span {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Booking button {
+    background-color: #ffb606;
+    height: 40px;
+    border: 1px solid #ffb606;
+}
+
+.Booking button:hover {
+    color: #131230;
+    background: white;
+    border: 1px solid #ffb606;
+    cursor: pointer;
+}
+
+.Serving {
+    width: 100%;
+    margin: 20px auto;
+    padding-top: 100px;
+}
+
+.Serving .Details {
+    display: flex;
+    flex-direction: column;
+}
+
+.Serving .Details .heading {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-weight: 400px;
+    font-size: xx-large;
+    color: #ffb606;
+}
+
+.Serving .Details .TextUnder {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    word-break: break-all;
+}
+
+.Serving .Details .TextUnder span {
+    width: 350px;
+    word-break: break-all;
+}
+
+.footer {
+    color: white;
+    background-color: #0d0d27;
+    background-size: cover;
+}
+
+.footer .head {
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.footer .head .Nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer .head .Nav .Icon {
+    margin-left: 30px;
+}
+
+.footer .head .Nav .Icon a {
+    color: white;
+}
+
+.footer .head .Nav .Icon a i {
+    font-size: 15px;
+    padding: 0 12px;
+}
+
+.footer .head .logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 15px;
+    word-break: break-all;
+}
+
+.contactus {
+    background-color: #131230;
+    color: #777;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.contactus .middlesection1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contactus .middlesection1 .locationside .contactheading {
+    font-size: large;
+    color: #ffb606;
+}
+
+.contactus .middlesection1 .locationside .contactdetail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.contactus .middlesection1 .locationside .contactdetail .icon {
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contactus .middlesection1 .locationside .contactdetail .icon i {
+    font-size: 20px;
+    padding: 20px 0;
+    padding-right: 3px;
+}
+
+.contactus .middlesection1 .locationside .contactdetail .contacttext {
+    color: #777;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    text-align: left;
+    font-size: small;
+}
+
+.contactus .middlesection1 .locationside .contactdetail .contacttext .span {
+    color: #675a5e;
+    font-size: small;
+    margin: 10px;
+}
+
+.contactus .middlesection1 .foodside .contactheading {
+    font-size: large;
+    color: #ffb606;
+}
+
+.contactus .middlesection1 .timingsside {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.contactus .middlesection1 .timingsside .contactheading {
+    font-size: large;
+    color: #ffb606;
+}
+
+.contactus .middlesection1 .timingsside .Head {
+    margin: 10px 0;
+}
+
+.TableReservation {
+    background-image: url(../../public/a4/images/header.jpg);
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.TableReservation .headingreserve {
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+    font-size: x-large;
+}
+
+.TableReservation .headingreserve span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.TableReservation form .fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.TableReservation form .fields span input {
+    /* margin: 10px; */
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.TableReservation form .fields .input-group {
+    padding: 10px;
+}
+
+.TableReservation form button {
+    background-color: #ffb606;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ffb606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.TableReservation form button:hover {
+    color: #131230;
+    background: white;
+    border: 1px solid #ffb606;
+    cursor: pointer;
+}
+
+.TableReservation form .icon {
+    color: black;
+    width: 12px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    position: absolute;
+    margin: 28px;
+}
+
+.TableReservation form .icon i {
+    font-size: 15px;
+    position: absolute;
+}
+
+.Reservation {
+    background-image: url(../../public/a4/images/reserbe2.jpg);
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reservation .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Reservation .undertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+}
+
+.Reservation button {
+    background-color: #ffb606;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ffb606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.Reservation button:hover {
+    color: #131230;
+    background: white;
+    border: 1px solid #ffb606;
+    cursor: pointer;
+}
+
+.Speciality {
+    display: flex;
+    justify-content: center;
+}
+
+.Speciality .ExpertSection .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Speciality .ExpertSection .dishesheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 50px;
+}
+
+.Speciality .ExpertSection .dishesheading .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-style: italic;
+}
+
+.Speciality .ExpertSection .sp1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Speciality .ExpertSection .sp1 .Image img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .heading {
+    display: flex;
+    margin: 20px 0;
+    align-self: flex-start;
+    font-weight: 100px;
+    font-size: xx-large;
+    color: #ffb606;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .TextUnder {
+    color: grey;
+    word-break: break-all;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .TextUnder span {
+    display: flex;
+    margin: 10px 0;
+    max-width: 350px;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .price {
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    color: #ffb606;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .bookarrow {
+    color: #131230;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .bookarrow span i {
+    padding: 0 10px;
+    color: #ffb606;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .dishbody .bookarrow span i:hover {
+    color: #131230;
+    padding: 0 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .Item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: black;
+    align-items: center;
+}
+
+.Speciality .ExpertSection .sp1 .SpacialDish .Item .hrLine {
+    width: 70%;
+    height: 2px;
+    background-color: #000;
+    margin-left: 20px;
+}
+
+.Speciality .ExpertSection .sp2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Speciality .ExpertSection .sp2 .dishesheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.Speciality .ExpertSection .sp2 .dishesheading .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-style: italic;
+}
+
+.Speciality .ExpertSection .sp2 .Image img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .Item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: black;
+    align-items: center;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .Item .hrLine {
+    width: 70%;
+    height: 2px;
+    background-color: #000;
+    margin-left: 20px;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .heading {
+    display: flex;
+    margin: 20px;
+    align-self: flex-start;
+    font-weight: 100px;
+    font-size: xx-large;
+    color: #ffb606;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .TextUnder {
+    color: grey;
+    word-break: break-all;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .TextUnder span {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .price {
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    color: #ffb606;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .bookarrow {
+    color: #131230;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .bookarrow span i {
+    color: #ffb606;
+}
+
+.Speciality .ExpertSection .sp2 .SpacialDish .bookarrow span i:hover {
+    position: absolute;
+    top: 0;
+    left: 110%;
+    color: #131230;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.MenuPrics {
+    margin: 50px;
+}
+
+.MenuPrics .MenuSection1 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+.MenuPrics .MenuSection1 .Menu .Menuimage {
+    width: 100%;
+    overflow: hidden;
+}
+
+.MenuPrics .MenuSection1 .Menu .Menuimage img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.MenuPrics .MenuSection1 .Menu .Pricing .dishname {
+    width: 100%;
+    padding: 30px;
+    background: #f9f9ff;
+    color: #ffb606;
+}
+
+.MenuPrics .MenuSection1 .Menu .Pricing .dishname span {
+    margin-right: 40px;
+}
+
+.MenuPrics .MenuSection1 .Menu .Pricing .dishname .Recipe {
+    color: #777;
+}
+
+.MenuPrics .MenuSection1 .Menu:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+.MenuPrics .MenuSection1 .Menu:hover .Pricing .dishname {
+    background-color: #ffb606;
+    color: black;
+    cursor: pointer;
+}
+
+.MenuPrics .MenuSection2 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+.MenuPrics .MenuSection2 .Menu .Menuimage {
+    width: 100%;
+    overflow: hidden;
+}
+
+.MenuPrics .MenuSection2 .Menu .Menuimage img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.MenuPrics .MenuSection2 .Menu .Pricing .dishname {
+    width: 100%;
+    padding: 30px;
+    background: #f9f9ff;
+    color: #ffb606;
+}
+
+.MenuPrics .MenuSection2 .Menu .Pricing .dishname span {
+    margin-right: 40px;
+}
+
+.MenuPrics .MenuSection2 .Menu .Pricing .dishname .Recipe {
+    color: #777;
+}
+
+.MenuPrics .MenuSection2 .Menu:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+.MenuPrics .MenuSection2 .Menu:hover .Pricing .dishname {
+    background-color: #ffb606;
+    color: black;
+    cursor: pointer;
+}
+
+.FoodUpdate .dishesheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 40px 10px;
+}
+
+.FoodUpdate .dishesheading .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-style: italic;
+}
+
+.FoodUpdate .MenuSection1 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+.FoodUpdate .MenuSection1 .Menu .Menuimage img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.FoodUpdate .MenuSection1 .Menu .Pricing .icons {
+    color: black;
+    /* width: 12px;
+    */
+    /* height: 14px;
+    */
+    display: flex;
+    /* position: absolute;
+    */
+    color: #777;
+    padding: 10px 20px 0;
+}
+
+.FoodUpdate .MenuSection1 .Menu .Pricing .icons span {
+    margin-right: 35px;
+}
+
+.FoodUpdate .MenuSection1 .Menu .Pricing .icons span i {
+    color: #777;
+    font-size: 17px;
+    margin: 10px 8px;
+}
+
+.FoodUpdate .MenuSection1 .Menu .Pricing .dishname {
+    width: 100%;
+    padding: 10px 30px;
+    background: #f9f9ff;
+    color: #ffb606;
+}
+
+.FoodUpdate .MenuSection1 .Menu .Pricing .dishname .Recipe {
+    background-color: #f9f9ff;
+    color: #777;
+}
+
+.mapdetails .loc {
+    background-color: #ffb606;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mapdetails .locationside {
+    align-items: center;
+    margin: 118px;
+}
+
+.mapdetails .locationside .contactheading {
+    font-size: large;
+    color: white;
+}
+
+.mapdetails .locationside .contactdetail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.mapdetails .locationside .contactdetail .icon {
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.mapdetails .locationside .contactdetail .icon i {
+    font-size: 20px;
+    padding: 20px 0;
+    padding-right: 3px;
+}
+
+.mapdetails .locationside .contactdetail .contacttext {
+    color: #777;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    text-align: left;
+    font-size: small;
+}
+
+.mapdetails .Details iframe {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactus .middlesection1 .locationside .contactdetail .contacttext .span {
+    color: #675a5e;
+    font-size: small;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 999px) {
+    .Header .head .nav {
+        display: none;
+    }
+    .Header .head .humburgericon {
+        border-radius: 7px;
+        color: white;
+        position: absolute;
+        top: 21px;
+        right: 154px;
+        background: #ffb606;
+        padding: 7px 10px;
+        display: unset;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .Booking .Details .heading h3 {
+        text-align: center;
+        font: 18px;
+    }
+}
