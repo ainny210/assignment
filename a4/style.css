@@ -600,7 +600,7 @@ a {
 }
 
 .MenuPrics {
-    margin: 50px;
+    /* margin: 50px; */
 }
 
 .MenuPrics .MenuSection1 {
@@ -809,6 +809,10 @@ a {
 }
 
 @media only screen and (max-width: 999px) {
+    .Header {
+        height: 100px;
+        padding-top: 10px;
+    }
     .Header .head .nav {
         display: none;
     }
@@ -828,5 +832,31 @@ a {
     .Booking .Details .heading h3 {
         text-align: center;
         font: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Header .head .nav {
+        display: none;
+    }
+    .Header .head .humburgericon {
+        border-radius: 7px;
+        color: white;
+        position: absolute;
+        top: 21px;
+        right: 2px;
+        background: #ffb606;
+        padding: 7px 10px;
+        display: unset;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contactus {
+        background-color: #131230;
+        color: #777;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
 }
