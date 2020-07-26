@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="chap35-38.js">
+    </script>
+
+
+</head>
+
+<body>
+    <h1>CHAP 35-38s JAVASCRIPT ASSIGMENT</h1>
+    <h1>
+        UNCOMMENT THE QUESTION's SOLUTION ONE BY ONE
+    </h1>
+    <!-- Q1 -->
+
+    <!-- <div>
+        <button onclick="dat()">get date</button>
+    </div>
+    <div id="current"></div> -->
+
+    <!-- Q2 -->
+    <!-- <div class="Calculator">
+
+        <div class="Result">Welcom to my site : <span id="result"></span> </div>
+    </div> -->
+    <!-- <div class="ButtonsList">
+            <button type="button" onclick="add();">click me</button>
+        </div> -->
+    <!-- Q3 -->
+    <!-- 
+        <div class="InputBoxes">
+            <div><span>No# 1: </span><input type="text" name="n1" id="n1"></div>
+            <div><span>No# 2: </span><input type="text" name="n2" id="n2"></div>
+        </div>
+        <div class="Result">Result: <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="add();">+</button> -->
+    <!-- Q4 -->
+    <!-- <div class="Calculator">
+    
+            <div class="InputBoxes">
+                <div><span>No# 1: </span><input type="text" name="n1" id="n1"></div>
+                <div><span>No# 2: </span><input type="text" name="n2" id="n2"></div>
+                <div><span>operator eg(+ , - , * , /): </span><input type="text" name="op" id="op"></div>
+            </div>
+            <div class="Result">Result: <span id="result"></span> </div>
+            <div class="ButtonsList">
+                <button type="button" onclick="add();">Ans</button>
+    
+            </div>
+        </div> -->
+
+    <!-- Q5 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+            <div><span>No: </span><input type="text" name="square" id="square"></div>
+
+
+        </div>
+
+
+        <div class="Result">Square of <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="square(); " style="width: 80px;">Square</button>
+        </div> -->
+    <!-- Q6 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+            <div><span>No: </span><input type="text" name="fact" id="fact"></div>
+
+
+        </div>
+
+
+        <div class="Result">factorial of <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="fact() " style="width: 100px;">factorial</button>
+        </div> -->
+    <!-- Q7 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+            <div><span>start: </span><input type="text" name="start" id="start"></div>
+            <div><span>end: </span><input type="text" name="end" id="end"></div>
+
+
+        </div>
+
+
+        <div class="Result">counting <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="num()" style="width: 100px;">counting</button>
+        </div>
+    </div> -->
+    <!-- Q8 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+            <div><span>base: </span><input type="text" name="b" id="b"></div>
+            <div><span>perpendicular: </span><input type="text" name="p" id="p"></div>
+
+
+        </div>
+
+
+        <div class="Result">Ans <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="hy()" style="width: 100px;">counting</button>
+        </div>
+    </div> -->
+    <!-- Q9 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+
+            <div><span>height: </span><input type="text" name="h" id="h"></div>
+
+
+        </div>
+
+
+        <div class="Result">Ans <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="area(20)" style="width: 100px;">counting</button>
+        </div>
+    </div> -->
+    <!-- Q10 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+
+            <div><span>word </span><input type="text" name="w" id="w" style="width: 100px;"></div>
+
+
+        </div>
+
+
+        <div class="Result">Ans <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="palendrom()" style="width: 100px;">check</button>
+        </div>
+    </div> -->
+    <!-- Q11 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+
+
+        </div>
+
+
+        <div class="Result">FIRST LETTER CAPITILIZE : <span id="result"></span> </div>
+
+    </div> -->
+    <!-- Q12 -->
+    <!-- <div class="Calculator">
+
+        <div class="InputBoxes">
+
+
+        </div>
+
+
+        <div class="Result">BIGGEST WORD IN THE STRING <span id="result"></span> </div>
+
+    </div> -->
+    <!-- Q13 -->
+    <div class="Calculator">
+
+        <div class="InputBoxes">
+
+
+        </div>
+
+
+        <div class="Result">occurence OF WORD IN THE STRING <span id="result"></span> </div>
+
+    </div>
+    <!-- Q14 -->
+
+    <script>
+        // //Q1
+        // function dat() {
+        //     var a = new Date();
+        //     document.getElementById('current').innerHTML = 'Current Date :' + a;
+
+        // }
+        // // Q2 
+        // function greet() {
+        //     var fn = prompt("enter first name")
+        //     var ln = prompt("enter first name")
+        //     var res = fn + ln
+
+        //     document.getElementById('result').innerHTML = res
+
+
+        // }
+        // greet();
+
+
+
+        ////Q3
+        // function add() {
+        //     var n1 = document.getElementById('n1').value;
+        //     var n2 = document.getElementById('n2').value;
+
+        //     var res = Number(n1) + Number(n2);
+        //     document.getElementById('result').innerHTML = res
+        //        
+        // }
+        ////Q4
+        // function add() {
+        //     var n1 = document.getElementById('n1').value;
+        //     var n2 = document.getElementById('n2').value;
+        //     var op = document.getElementById('op').value;
+        //     if (op == '+') {
+
+        //         var res = Number(n1) + Number(n2);
+        //         document.getElementById('result').innerHTML = res
+        //         console.log(res)
+        //     } else if (op == '-') {
+
+        //         var res = Number(n1) - Number(n2);
+        //         document.getElementById('result').innerHTML = res
+        //         console.log(res)
+        //     } else if (op == '*') {
+
+        //         var res = Number(n1) * Number(n2);
+        //         document.getElementById('result').innerHTML = res
+        //         console.log(res)
+        //     } else if (op == '/') {
+
+        //         var res = Number(n1) / Number(n2);
+        //         document.getElementById('result').innerHTML = res
+        //         console.log(res)
+        //     } else {
+        //         alert('operator not found')
+        //     }
+
+        // }
+
+        ////Q5
+        // function square() {
+        //     var s = document.getElementById('square').value;
+        //     var res = s * s;
+        //     document.getElementById('result').innerHTML = s + " " + "is" + " " + res;
+        // }
+
+        ////Q6
+
+        // function fact() {
+        //     var s = document.getElementById('fact').value;
+        //     var res = 1;
+        //     for (var i = 1; i <= s; i++) {
+
+        //         res = res * i
+        //     }
+        //     document.getElementById('result').innerHTML = res;
+        // }
+        ////Q7
+        // function num() {
+        //     var s = document.getElementById('start').value;
+        //     var en = document.getElementById('end').value;
+        //     var result = ""
+        //     for (var i = s; i <= en; i++) {
+        //         result += i + '</br>'
+        //         console.log(result)
+        //     }
+        //     document.getElementById('result').innerHTML = result
+        // }
+
+        ////Q8
+
+        // function hy() {
+        //     var base = document.getElementById('b').value;
+        //     var per = document.getElementById('p').value;
+
+        //     var h = Number(base) + Number(per);
+        //     console.log(h)
+
+        //     var res
+
+        //     function innerfunc() {
+        //         res = h * h
+        //         console.log(res)
+        //     }
+        //     innerfunc()
+        //     document.getElementById('result').innerHTML = res;
+        // }
+
+        ////Q9
+
+        // function abcdd(width) {
+
+        //     var h = document.getElementById('h').value;
+        //     // input value
+        // }
+
+        // var w;
+
+        // function area(h, w) {
+
+        //     this.h = h;
+        //     this.w = w;
+        //     var h = Number(h) * Number(w);
+
+
+        // }
+        // x = area(h, 20)
+        // document.getElementById('result').innerHTML = x;
+
+        ////Q10
+        // function palendrom() {
+        //     var word = document.getElementById('w').value;
+        //     var check = "";
+        //     var i, j;
+        //     for (i = word.length - 1; i >= 0; i--) {
+
+        //         check += word[i];
+        //     }
+        //     console.log(check)
+        //     if (word == check) {
+        //         console.log("palindrome")
+        //         alert('palindrome')
+        //     } else {
+        //         console.log("not a palindrom")
+        //         alert('not a palindrome')
+        //     }
+        // }
+        //  Q11
+        // var str = prompt("enter the string")
+
+        // function titleCase(str) {
+
+        //     var splitStr = str.toLowerCase().split(' ');
+        //     for (var i = 0; i < splitStr.length; i++) {
+
+        //         splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].slice(1);
+        //     }
+
+        //     return splitStr.join(' ');
+        // }
+        // console.log(titleCase(str));
+        // x = titleCase(str)
+        // document.getElementById('result').innerHTML = x;
+        //Q12
+
+        // var str = prompt("enter the string")
+
+        // function titleCase(str) {
+        //     var splitStr = str.split(' ');
+        //     var a = splitStr[0];
+        //     for (var i = 1; i < splitStr.length; i++) {
+        //         if (a.length < splitStr[i].length) {
+        //             a = splitStr[i];
+
+        //         } else {
+        //             console.log(a);
+        //         }
+        //     }
+        //     return a
+        // }
+        // console.log(titleCase(str));
+        // x = titleCase(str)
+        // document.getElementById('result').innerHTML = x;
+
+
+
+        //Q13
+        var str = prompt("enter the string")
+        var l = prompt("enter the letter to check its occurance")
+        var lc = 0;
+
+
+        function titleCase(str, l) {
+
+            for (var i = 1; i < str.length; i++) {
+                if (str[i] == l) {
+                    lc++
+                }
+            }
+            return lc
+        }
+
+        document.getElementById('result').innerHTML = titleCase(str, l);
+        //Q14
+    </script>
+
+
+</body>
+
+</html>

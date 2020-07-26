@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="chap14-16.js">
+    </script>
+
+
+</head>
+
+<body>
+    <h1>CHAP 14-16 JAVASCRIPT ASSIGMENT</h1>
+    <h1>
+        UNCOMMENT THE QUESTION's SOLUTION IN JAVA FILE ONE BY ONE
+    </h1>
+    <select id="selectNumber">
+        <option>Choose a Phone Manufacturing</option>
+    </select>
+
+
+
+    <script>
+        var select = document.getElementById("selectNumber");
+        var options = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+        for (var i = 0; i < options.length; i++) {
+            // var opt = options[i];
+            var createoption = document.createElement("option");
+            createoption.textContent = options[i];
+            createoption.value = options[i];
+            select.appendChild(createoption);
+            // document.write(createoption)
+        }
+    </script>
+</body>
+
+</html>

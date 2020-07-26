@@ -7,12 +7,6 @@
                     font-family: cursive;
                 }
                 
-                @media only screen and (max-width: 900px) {
-                    .stopwatch {
-                        min-width: 300px;
-                    }
-                }
-                
                 .stopwatch h1 {
                     position: relative;
                     text-align: center;
@@ -54,10 +48,11 @@
                     text-transform: uppercase;
                     font-size: 0.4em;
                     cursor: pointer;
+                    font-family: cursive;
                 }
                 
                 .stopwatch .counter div span:nth-child(2) {
-                    height: 40px;
+                    height: 60px;
                 }
                 
                 .stopwatch .counter div:last-child span {
@@ -66,4 +61,18 @@
                 
                 .stopwatch .counter div:last-child span button {
                     background-color: #91073F;
+                }
+                
+                .stopwatch .counter div:first-child span {
+                    background-color: #91073F;
+                }
+                
+                .stopwatch .counter div:first-child span button {
+                    background-color: #91073F;
+                }
+                
+                @media only screen and (max-width: 900px) {
+                    .stopwatch {
+                        min-width: 300px;
+                    }
                 }

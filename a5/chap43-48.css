@@ -1,0 +1,11 @@
+.mobile {
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile img {
+    height: 160px;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 20px;
+}

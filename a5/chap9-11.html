@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="chap9-10.js">
+    </script>
+
+
+</head>
+
+<body>
+
+    <h1>CHAP 9-11 JAVASCRIPT ASSIGMENT</h1>
+    <h1>
+        UNCOMMENT THE QUESTION's SOLUTION IN JAVA FILE ONE BY ONE
+    </h1>
+
+    <div class="Calculator">
+        <h2>CALCULATOR Q11</h2>
+        <div class="InputBoxes">
+            <div><span>No# 1: </span><input type="text" name="n1" id="n1" maxlength="3" max="999"></div>
+            <div><span>No# 2: </span><input type="text" name="n2" id="n2" maxlength="3" max="999"></div>
+        </div>
+        <div class="Result">Result: <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="add();">+</button>
+            <button type="button" onclick="sub();">-</button>
+            <button type="button" onclick="mul();">x</button>
+            <button type="button" onclick="div();">/</button>
+        </div>
+    </div>
+    <script>
+        function add() {
+            var n1 = document.getElementById('n1').value;
+            var n2 = document.getElementById('n2').value;
+
+            var res = Number(n1) + Number(n2);
+            document.getElementById('result').innerHTML = res
+                // return (res)
+        }
+
+        function sub() {
+            var n1 = document.getElementById('n1').value;
+            var n2 = document.getElementById('n2').value;
+
+            var res = Number(n1) - Number(n2);
+            document.getElementById('result').innerHTML = res
+                // return (res)
+        }
+
+        function mul() {
+            var n1 = document.getElementById('n1').value;
+            var n2 = document.getElementById('n2').value;
+
+            var res = Number(n1) * Number(n2);
+            document.getElementById('result').innerHTML = res
+                // return (res)
+        }
+
+        function div() {
+            var n1 = document.getElementById('n1').value;
+            var n2 = document.getElementById('n2').value;
+
+            var res = Number(n1) / Number(n2);
+            document.getElementById('result').innerHTML = res
+                // return (res)
+        }
+    </script>
+
+</body>
+
+</html>

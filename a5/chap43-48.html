@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chap43-48.css">
+    <script src="chap43-48.js">
+    </script>
+
+
+</head>
+
+<body>
+    <h1>CHAP 43-48 JAVASCRIPT ASSIGMENT</h1>
+    <h1>
+        UNCOMMENT THE QUESTION's SOLUTION IN JAVA FILE ONE BY ONE
+    </h1>
+    <!-- Q1 -->
+    <!-- <a href="#" onclick="alert('On click on a link')">ON click on a link</a> -->
+    <!-- Q2 -->
+    <!-- <div>
+        <div class="container">
+            <div>
+                <h1>Mobile Phone Lookup</h1>
+            </div>
+            <div class="row mobile">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 image ">
+                    <img src="images/images (2).jpg" alt="" onclick="alert('On click on a link')">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 image ">
+                    <img src="images/images (2).jpg" alt="" onclick="alert('On click on a link')">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                    <img src="images/images (2).jpg" alt="" onclick="alert('On click on a link')">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Q4 -->
+    <div>
+        <div class="container">
+            <div>
+                <h1>Mobile Phone Lookup</h1>
+            </div>
+            <div class="row mobile">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 image " id="ImageButton1">
+                    <!-- <img src="images/images (2).jpg" alt="" onmouseover="mouseOverImage()" onmouseout="mouseOutImage()" id="ImageButton1"> -->
+                    <img src="images/images (2).jpg" alt="" onmouseover="this.src='images/images (3).jpg';" onmouseout="this.src='images/images (2).jpg'" id="ImageButton1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 image ">
+                    <img src="images/images (2).jpg" alt="" onmouseover="this.src='images/images (3).jpg';" onmouseout="this.src='images/images (2).jpg'" id="ImageButton1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 image">
+                    <img src="images/images (2).jpg" alt="" onmouseover="this.src='images/images (3).jpg';" onmouseout="this.src='images/images (2).jpg'" id="ImageButton1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="Calculator">
+        <h1>Increment / Decrement</h1>
+        <div class="InputBoxes">
+            <div><span>No# 1: </span><input type="text" name="n1" id="n1"></div>
+
+        </div>
+        <div class="Result">Result: <span id="result"></span> </div>
+        <div class="ButtonsList">
+            <button type="button" onclick="inc();">+</button>
+            <button type="button" onclick="dec();">-</button>
+        </div>
+    </div>
+    <script>
+        // Q5
+        var res = 1;
+        var c = 0;
+        var counter = 0;
+
+        // function inc() {
+        //     var i = parseInt(document.getElementById('n1').value);
+
+        //     if (res == 1) {
+        //         res = i + 1
+        //         console.log(res)
+        //         document.getElementById('result').innerHTML = res;
+
+        //     } else {
+        //         res = res + 1
+        //         console.log("else wala ja" + res)
+        //         document.getElementById('result').innerHTML = res;
+
+        //     }
+        // }
+
+        // function dec() {
+        //     var i = parseInt(document.getElementById('n1').value);
+
+        //     if (c == 0) {
+        //         c = i - 1
+        //         counter = c
+        //         console.log(c)
+        //         document.getElementById('result').innerHTML = c;
+
+
+
+        //     } else if (c < 0) {
+        //         console.log("your value is less than zero")
+        //         document.getElementById('result').innerHTML = "0";
+
+        //     } else {
+        //         c = c - 1
+        //         counter--
+        //         console.log("else wala ja" + c)
+        //         document.getElementById('result').innerHTML = c;
+        //         if (counter == 0) {
+        //             c = -1
+        //         }
+
+        //     }
+
+        // }
+    </script>
+
+
+</body>
+
+</html>

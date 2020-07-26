@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="chap6-8.js">
+    </script>
+
+
+</head>
+
+<body>
+    <h1>CHAP 6-8 JAVASCRIPT ASSIGMENT</h1>
+    <h1>
+        UNCOMMENT THE QUESTION's SOLUTION IN JAVA FILE ONE BY ONE
+    </h1>
+    <h1>Dynamically Marks Sheet</h1>
+
+    <table id="table1">
+        <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Obatined Marks</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+    <script>
+        var gettable1;
+        var result = 0;
+        var ttm = 0;
+        for (var i = 0; i < 3; i++) {
+            var sname = prompt("enter subject name")
+            var ob = +prompt("enter obtained marks name")
+
+            var tm = 100;
+            var per = (ob / tm) * 100;
+
+            gettable1 = document.getElementById('table1')
+            var row = gettable1.insertRow();
+            var cell1 = row.insertCell();
+            var cell2 = row.insertCell();
+            var cell3 = row.insertCell();
+            var cell4 = row.insertCell();
+            cell1.innerHTML = sname;
+            cell2.innerHTML = tm;
+            cell3.innerHTML = ob;
+            cell4.innerHTML = per + "%";
+
+            result += Number(ob)
+            ttm += Number(tm)
+
+        }
+        var tper = (result / ttm) * 100
+        var row1 = gettable1.insertRow();
+        var cell1 = row1.insertCell();
+        var cell2 = row1.insertCell();
+        var cell3 = row1.insertCell();
+        var cell4 = row1.insertCell();
+        cell1.innerHTML = "total";
+        cell2.innerHTML = ttm;
+        cell3.innerHTML = result;
+        cell4.innerHTML = tper + "%";
+    </script>
+</body>
+
+</html>

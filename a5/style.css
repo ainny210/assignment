@@ -1,0 +1,97 @@
+.Calculator {
+    padding: 10px 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+
+.Calculator .Result {
+    margin: 0 0 20px;
+}
+
+.InputBoxes {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.InputBoxes div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 12px;
+}
+
+.InputBoxes div input {
+    height: 25px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cccccc;
+}
+
+.DoingSection {
+    background-color: #F7F8FA;
+    background-color: black;
+}
+
+.DoingSection .doing .Heading h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    word-wrap: break-word;
+}
+
+.DoingSection .doing .work {
+    width: 100%;
+}
+
+.DoingSection .doing .work .Items {
+    width: 100%;
+    margin: 20px 0;
+    padding: 50px 20px;
+    font-weight: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C30234;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+.DoingSection .doing .work .Items.boxesa {
+    /* // border: 1px solid white;
+// border-radius: 20px; */
+    display: flex;
+    justify-content: center;
+    background-color: #F7F8FA;
+    /* // background-color: rgba(0, 0, 0, 0.3); */
+    color: white;
+    width: 100%;
+}
+
+.DoingSection .doing .work .Items a {
+    color: white;
+}
+
+.jumbotron {
+    background-color: #C30234;
+}
+
+
+/* .ButtonsList {} */
+
+.ButtonsList button {
+    width: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
